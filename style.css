@@ -1,0 +1,45 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');*/
+
+:root {
+	margin: 20px 20px 20px 30px;
+	font-family: 'Avenir', sans-serif;
+	background-color: #ecb027;
+	color: #312e38;
+}
+
+.logo {
+	margin-left: -25px;
+	margin-bottom: -20px;
+	margin-right: -70px;
+	visibility: inherit;
+}
+
+.small-logo {
+	margin-right: 30px;
+	visibility: hidden;
+}
+
+nav > * {
+	display: inline;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+nav > a {
+	color: inherit;
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.large-logo {
+		visibility: hidden;
+		height: 0px;
+		width: 0px;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	.small-logo {
+		visibility: visible;
+	}
+}
