@@ -44,6 +44,37 @@ nav > a:not(.logo-href) {
 	margin-right: 50px;
 }
 
+.quote {
+	position: absolute;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+}
+
+.quote > h2 {
+	margin-top: -15px;
+}
+
+button {
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 30px 64px;
+	background-color: #ecb027;
+	border: 5px solid #312e38;
+	border-radius: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	transition: ease-in-out 200ms;
+}
+
+button:hover {
+	background-color: #312e38;
+	color: #ecb027;
+}
+
 @media only screen and (max-width: 1200px) {
 	.large-logo {
 		visibility: hidden;
